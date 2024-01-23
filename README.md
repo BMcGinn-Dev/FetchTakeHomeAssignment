@@ -1,5 +1,14 @@
 # FetchTakeHomeAssignment
-Repository where I have stored the code necessary to complete my Fetch Take-Home Exercise — Site Reliability Engineering solution. I have completed the solution in Python 3.11.
+Repository where I have stored the code necessary to complete my **Fetch Take-Home Exercise — Site Reliability Engineering solution**. I have completed the solution in Python 3.11.
 
 In order to run my solution:
-Clone repository to your chosen evironment. Run pip install -r requirements.txt, I don't even believe this to be necessary given you are using a modern python
+- Clone repository to your chosen evironment.
+- I used a virtual env for my installs imports. I recommend you do the same, however if you want to install locally I suppose you could.
+- Run pip install -r requirements.txt, if the versioning happen to update:
+  - Navigate to env or path you aim to install packages at and run _**pip install PyYAML, requests**_
+- Ensure the file path of the YAML file is correct
+- Save file and run _**python SiteReliability.py**_ from the terminal
+
+As shown in the console, press Cntrl+C to terminate the program. 
+The availability percentages for each domain will print in the console, testing every 15 seconds as directed.
+Aside from the initial prompt, the output should be in the correct format as specified in the prompt.
