@@ -40,12 +40,12 @@ def check_health(url, idx):
 
         # print(f"URL: {url}, Status Code: {response.status_code}, Latency: {latency:.2f} ms") --> working print statement
 
-        # Likely due to my connection, but when accessing www.fetchrewards.com is almost always > 900ms. If you want to ensure the code still works
+        # Likely due to my connection & VPN, but when accessing www.fetchrewards.com, latency was almost always > 900ms. If you want to ensure the code still works
         # I recommend manually changing the latency barrier at the end of this line below
         if (
             response.status_code >= 200
             and response.status_code < 300
-            and latency < 500
+            and latency < 500   #had to change this is latency was too slow
         ):
             return [url, "UP", latency]
         else:
