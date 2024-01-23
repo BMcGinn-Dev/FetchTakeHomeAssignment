@@ -4,7 +4,7 @@ Repository where I have stored the code necessary to complete my **Fetch Take-Ho
 In order to run my solution:
 - Clone repository to your chosen evironment.
 - I used a virtual env for my installs imports. I recommend you do the same, however if you want to install locally I suppose you could.
-- Run pip install -r requirements.txt, if the versioning happen to update:
+- Run **pip install -r requirements.txt**__, if the versionings happen to haved updated:
   - Navigate to env or path you aim to install packages at and run _**pip install PyYAML, requests**_
 - Ensure the file path of the YAML file is correct
 - Save file and run _**python SiteReliability.py**_ from the terminal
